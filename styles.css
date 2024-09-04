@@ -1,0 +1,76 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Sección de nombre y descripción personal */
+#about-me {
+    background-color: #007acc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#about-me h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+#about-me p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Sección de habilidades */
+#skills {
+    padding: 20px;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Sección de libros leídos */
+#books {
+    padding: 20px;
+    text-align: center;
+}
+
+#books h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.book {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.book img {
+    width: 100px;
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.book p {
+    margin: 10px 0;
+    font-size: 1em;
+}
